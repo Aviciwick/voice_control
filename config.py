@@ -1,4 +1,4 @@
-OPENAI_API_KEY = "634b7100-a736-4e86-b9a1-56b2cbb546e9"
+OPENAI_API_KEY = ""
 OPENAI_BASE_URL = "https://ark.cn-beijing.volces.com/api/v3"
 MODEL = "deepseek-v3-250324"
 TEMPERATURE = 0.1  # 较低的温度值使输出更加确定性
