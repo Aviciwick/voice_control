@@ -1,0 +1,35 @@
+# 忽略Python编译缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 忽略模型缓存
+.cache/
+
+# 忽略虚拟环境
+venv/
+env/
+.env/
+
+# 忽略结果文件夹中的内容，但保留文件夹
+results/*
+!results/.gitkeep
+
+# 忽略生成的转写和结果文件
+*_转写.txt
+*_结果.json
+*_原始响应.txt
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+
+# 忽略IDE相关文件
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 忽略音频处理的临时文件
+*.pcm
+*.raw 
